@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSP added to allow the form submission to formspree.io -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' https://fonts.googleapis.com https://cdnjs.cloudflare.com 'unsafe-inline'; font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com; img-src 'self' data:; script-src 'self'; form-action https://formspree.io;">
+    <title>Contact | Little Joe</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="contact-main">
+        <div class="card contact-form-wrapper">
+            <h3><i class="fas fa-envelope"></i> Send a Message</h3>
+            <p style="color: var(--text-muted); margin-bottom: 1.5rem;">Fill out the form below and I'll get back to you as soon as possible.</p>
+            
+            <form action="https://formspree.io/f/mbgdpkga" method="POST" class="contact-form">
+                <input type="email" name="email" placeholder="Your Email" required class="contact-input">
+                <textarea name="message" placeholder="Your Message" required rows="5" class="contact-input"></textarea>
+                <button type="submit" class="btn-primary contact-submit">Send Message</button>
+            </form>
+        </div>
+    </main>
+    <footer class="legal-footer">
+        <p>&copy; 2026 Bruno Coutinho Personal content & branding copyrighted.</p>
+        <p class="license-note">Source code available under the MIT License.</p>
+    </footer>    
+</body>
+</html>
