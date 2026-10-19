@@ -3,7 +3,9 @@
 This repository contains the source code for my personal portfolio website. It serves as a central hub to showcase my professional experience and link to my technical projects.
 
 ## Live Site
-[View my portfolio here](https://BrunoAlexCoutinho.github.io)
+[View my website here](https://BrunoAlexCoutinho.github.io)
+
+[Portfolio](https://github.com/BrunoAlexCoutinho/Portfolio)  
 
 ## Tech Stack
 * HTML5
